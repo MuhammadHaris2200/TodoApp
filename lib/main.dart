@@ -1,4 +1,4 @@
-/*import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -87,25 +87,5 @@ class _homePageState extends State<homePage> {
 
       ),
     );
-  }
-}*/
-void main() {
-hi.display();
-why.doubt();
-}
-class hello with hi,why {
-
-}
- mixin hi {
-static void display(){
-    String name="haris";
-    String  age="20";
-    print(name);
-    print(age);
-  }
-}
-mixin why{
-  static doubt(){
-    print("LLB");
   }
 }
